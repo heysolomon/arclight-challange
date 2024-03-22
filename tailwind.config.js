@@ -14,6 +14,9 @@ export default {
         primary: ["Merriweather", "serif"],
         secondary: ["Bitter", "serif"],
       },
+      gridTemplateColumns: {
+        "60-1": "65% repeat(1, 1fr)"
+      }
     },
   },
   plugins: [],
