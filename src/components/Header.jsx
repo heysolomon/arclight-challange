@@ -53,7 +53,7 @@ const Header = () => {
           <img src={image} alt="" className="w-full h-full" />
         </div>
 
-        <div className="mx-auto flex justify-between">
+        <div className="mx-auto flex justify-between p-2">
             <img src={logo1} alt="" />
             <img src={logo2} alt="" />
             <img src={logo3} alt="" />
