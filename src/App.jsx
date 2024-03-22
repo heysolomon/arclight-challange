@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import img1 from "./assets/Dashboard.png";
 import checkmark from "./assets/Checkmark.svg";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -100,28 +101,35 @@ function App() {
             <div className="p-9 rounded-[10px] text-secondary">
               <p>Basic</p>
               <h3 className="font-bold text-[56px]">
-                $39 <span className="text-[16px] font-normal text-secondary-light">/mo</span>
+                $39{" "}
+                <span className="text-[16px] font-normal text-secondary-light">
+                  /mo
+                </span>
               </h3>
               <p>Suited for those experimenting with referral programs.</p>
-              
+
               <div className="mt-6">
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Migration services</p>
+                  <p>Unlimited customers</p>
                 </span>
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Onboarding manager</p>
+                  <p>Dashboard & reports</p>
                 </span>
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Automation features</p>
+                  <p>Live chat support</p>
                 </span>
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Mass actions</p>
+                  <p>Fraud Management</p>
                 </span>
               </div>
+
+              <button className="py-[18px] w-full flex items-center justify-center bg-primary rounded-[5px] text-white font-[600] mt-6">
+                Subscribe
+              </button>
             </div>
             <div className="p-9 bg-primary text-white rounded-[10px]">
               <p>Starter</p>
@@ -129,7 +137,7 @@ function App() {
                 $59 <span className="text-[16px] font-normal">/mo</span>
               </h3>
               <p>Suited for those experimenting with referral programs.</p>
-              
+
               <div className="mt-6">
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
@@ -148,36 +156,44 @@ function App() {
                   <p>Mass actions</p>
                 </span>
               </div>
+
+              <button className="py-[18px] w-full flex items-center justify-center bg-[#E7E8FE] rounded-[5px] text-primary font-[600] mt-6">
+                Subscribe
+              </button>
             </div>
             <div className="p-9 rounded-[10px] text-secondary">
-              <p>Starter</p>
+              <p>Pro</p>
               <h3 className="font-bold text-[56px]">
-                $59 <span className="text-[16px] font-normal">/mo</span>
+                $129 <span className="text-[16px] font-normal">/mo</span>
               </h3>
-              <p>Suited for those experimenting with referral programs.</p>
-              
+              <p>Suited for enterprises with established referral systems.</p>
+
               <div className="mt-6">
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Migration services</p>
+                  <p>All previous plans plus:</p>
                 </span>
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Onboarding manager</p>
+                  <p>Remove ‘Powered by’ logo</p>
                 </span>
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Automation features</p>
+                  <p>Expert 1-on-1s</p>
                 </span>
                 <span className="flex items-center gap-4 mb-4">
                   <img src={checkmark} alt="" />
-                  <p>Mass actions</p>
+                  <p>Unlimited referral links</p>
                 </span>
               </div>
+              <button className="py-[18px] w-full flex items-center justify-center bg-primary rounded-[5px] text-white font-[600] mt-6">
+                Subscribe
+              </button>
             </div>
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

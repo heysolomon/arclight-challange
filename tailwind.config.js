@@ -15,7 +15,8 @@ export default {
         secondary: ["Bitter", "serif"],
       },
       gridTemplateColumns: {
-        "60-1": "65% repeat(1, 1fr)"
+        "60-1": "65% repeat(1, 1fr)",
+        "40-1": "40% repeat(1, 1fr)"
       }
     },
   },
